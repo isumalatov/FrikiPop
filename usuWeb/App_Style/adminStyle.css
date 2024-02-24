@@ -1,0 +1,17 @@
+﻿#admin h1 {
+    font-size: 3em; /* Tamaño del texto de H1 */
+    text-align: center; /* Centrar el texto de H1 */
+}
+
+#admin h2 {
+    font-size: 1.5em; /* Tamaño del texto de H2 */
+    text-align: center; /* Centrar el texto de H2 */
+    font-style: italic; /* Convertir el texto de H2 en cursiva */
+}
+
+#admin .boton {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente los botones */
+    width: 200px;
+    height: 50px;   
+}

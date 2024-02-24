@@ -1,0 +1,59 @@
+﻿h1 {
+    text-align: center;
+}
+
+#cuadrosTextoUsuario .cuadroDeTexto {
+    display: block;
+    margin: 0 auto;
+    width: 25em;
+    height: 50px;
+}
+
+.listas {
+    text-align: center;
+    color: black;
+    background-color: #c3bdbd;
+    border: unset;
+    font-size: medium;
+    Width: 410px;
+    Height: 30px;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
+    width: 25em;
+    height: 50px;
+    margin-bottom: 25px;
+}
+
+#botonesUsuario .boton {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+}
+
+#nuevaCuenta {
+    text-align: center;
+}
+
+#fotoPerfil {
+    text-align: center;
+    margin: 10px auto;
+    width: 300px;
+    height: 50px;
+}
+
+.validator{
+    color:red;
+    font-size:medium;
+}
+
+.labelsDeError {
+    color: red;
+    font-size: medium;
+}
+
+#CheckBoxes {
+    text-align: center;
+}
+

@@ -1,0 +1,11 @@
+﻿body {
+}
+
+#botonesRedesSociales {
+    display: flex;
+    justify-content: center;
+}
+
+#textoRedesSociales {
+    text-align: center;
+}

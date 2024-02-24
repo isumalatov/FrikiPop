@@ -1,0 +1,71 @@
+﻿body {
+}
+
+#campos {
+    text-align: center;
+}
+
+#botonesTarjeta{
+    display: flex;
+    justify-content: center;
+    margin: 0 20px;
+}
+
+.cuadroDeTexto {
+    color: black;
+    background-color: #c3bdbd;
+    border: unset;
+    font-size: medium;
+    Width: 410px;
+    Height: 30px;
+    margin-bottom: 1em;
+    border-radius: 25px;
+}
+
+.boton {
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    Height: 43px;
+    Width: 218px;
+    border: unset;
+    margin-left: 0.3em;
+}
+
+    .boton:hover {  /*cambia el color y hace más grande el botón*/
+        color: white;
+        background-color: #a70084;
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+.gridView {
+    margin: 20px auto; /* Centrado y margen superior e inferior */
+    width: 75%; /* Ancho completo del contenedor */
+    table-layout: fixed; /* Ancho fijo de las columnas */
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+    .gridView th {
+        background-color: #a70084; /* Fondo morado oscuro */
+        color: #fff; /* Letra blanca */
+    }
+
+    .gridView td {
+        background-color: #c08bbf;
+        color: #fff;
+        text-align: center;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .gridView .selectButton {
+        color: #a70084; /* Letra blanca */
+        text-decoration: none; /* Sin subrayado */
+        text-transform: uppercase; /* Letra en mayúsculas */
+    }
+
+        .gridView .selectButton:hover {
+            color: #00BFFF; /* Letra blanca */
+            font-weight: bold;
+        }

@@ -1,0 +1,88 @@
+﻿.body{
+
+}
+
+.gridViewUsuarios {
+    margin: 20px auto;
+    width: 80%;
+    table-layout: auto;
+    border-collapse: collapse;
+}
+
+    .gridViewUsuarios th {
+        background-color: #a70084;
+        color: #fff;
+    }
+
+    .gridViewUsuarios td {
+        background-color: #c08bbf;
+        color: #fff;
+        text-align: center;
+        white-space: normal;
+        word-wrap: break-word;
+    }
+
+    .gridViewUsuario .selectButtonUsuarios {
+    color: #a70084; /* Letra blanca */
+    text-decoration: none; /* Sin subrayado */
+    text-transform: uppercase; /* Letra en mayúsculas */
+    }
+
+    .gridViewUsuarios .selectButtonUsuarios:hover {
+        color: #00BFFF; /* Letra blanca */
+        font-weight: bold;
+    }
+
+#botonesVerUsuarios {
+    text-align: center;
+}
+
+#botonesVerUsuarios .boton {
+    display: block;
+    margin: 0 auto; /* Centrar horizontalmente los botones */
+    width: 200px;
+    height: 50px;
+}
+
+#filtradoDelGrid {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.filtros {
+    text-align: center;
+    color: black;
+    background-color: lightsteelblue;
+    border: unset;
+    font-size: medium;
+    Width: 410px;
+    Height: 30px;
+    border-radius: 25px;
+}
+
+.valorParaFiltrar {
+    text-align: center;
+    color: black;
+    background-color: lightsteelblue;
+    border: unset;
+    font-size: medium;
+    Width: 410px;
+    Height: 30px;
+    border-radius: 25px;
+}
+
+.botonParaFiltrar {
+    background-color: lightsteelblue;
+    border-radius: 25px;
+    Height: 43px;
+    Width: 218px;   
+    border: unset;
+}
+    .botonParaFiltrar:hover {
+        transition: 1s;
+        background-color: #a70084;
+        border-radius: 25px;
+        Height: 47px;
+        Width: 225px;
+        border: unset;
+    }

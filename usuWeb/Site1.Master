@@ -1,0 +1,60 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="usuWeb.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link rel="stylesheet" href="..\App_Style\masterStyle.css" />
+    <link rel="stylesheet" href="..\App_Style\gridViewStyle.css" />
+    <link rel="stylesheet" href="..\App_Style\usuarioStyle.css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form runat="server">
+    <header>
+        <div>
+            <asp:Image runat="server" ImageUrl="~/App_Images/Web/logo.png" CssClass="logo" />
+            <asp:Image runat="server" ID="imagenUsuario" CssClass="imagenUsuario"/>
+            <asp:Label runat="server" ID="nickName" CssClass="nickName"></asp:Label>
+        </div>
+            <asp:Menu ID="Menu" runat="server" CssClass="menu">
+                <Items >
+                    <asp:MenuItem Text="Home" NavigateUrl="~/paginaPrincipal.aspx"></asp:MenuItem>
+                    <asp:MenuItem Text="Videojuegos" NavigateUrl="~/paginaPrincipal.aspx?param=Videojuegos"></asp:MenuItem>
+                    <asp:MenuItem Text="Consolas" NavigateUrl="~/paginaPrincipal.aspx?param=Consolas"></asp:MenuItem>
+                    <asp:MenuItem Text="Merchan" NavigateUrl="~/paginaPrincipal.aspx?param=Merchan"></asp:MenuItem>
+                    <asp:MenuItem Text="Iniciar Sesión" NavigateUrl="~/Usuario.aspx"></asp:MenuItem>
+                </Items>
+            </asp:Menu>
+    </header>
+    <div style="min-height: 500px">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    </div>
+    <footer class="footer_master">
+        <h6><b>Redes sociales</b></h6>
+        <div class="redes">
+            <ul>
+                <li><a href="https://www.instagram.com" class="redes" ><img src="/App_Images/Web/instagram.png" alt="INSTAGRAM" typeof="png" style="width: 22px;" /> Instagram </a></li><br />
+                <li><a href="https://www.facebook.com" class="redes" ><img src="/App_Images/Web/facebook.png" alt="FACEBOOK" typeof="png" style="width: 20px;" /> Facebook </a></li><br />
+                <li><a href="https://www.twitter.com" class="redes" ><img src="/App_Images/Web/twitter.png" alt="TWITTER" typeof="png" style="width: 20px;" /> Twitter </a></li><br />
+            </ul>
+        </div>
+        <h6><b>Infomacion Importante</b></h6>
+        <div class="links">
+            <ul>
+                <li><a href="" class="links" >Trabaja con nosotros</a></li>
+                <li><a href="" class="links" >Aviso de privacidad</a></li>
+                <li><a href="" class="links" >Términos y condiciones</a></li>
+            </ul>
+        </div>
+        <div class ="copyright">
+            <h6>Copyright &copy; 2023 Todos los derechos reservados a FrikiPop S.A</h6>
+        </div>
+    </footer>
+    </form>
+</body>
+</html>

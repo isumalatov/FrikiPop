@@ -1,0 +1,122 @@
+﻿html {
+    font-family: Arial;
+    cursor: url(https://cdn.custom-cursor.com/db/cursor/32/Super_Mario_BowserCursor.png), default !important;
+
+}
+
+.header{
+    width: 100%;
+    height: 110px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0f1618;
+    color: white;
+}
+
+.logo {
+    margin-top: 1em;
+    width: 150px;
+    height: 45px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+    .menu > ul {
+        display: flex;
+        border-radius: 10px;
+        height: 50px;
+        background-color: #a70084;
+        align-items: center;
+    }
+
+        .menu > ul > li > a {
+            cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Super_Mario_BowserPointer.png), pointer !important;
+            color: white;
+            margin: 0.5em 0.9em;
+            font-weight: bold;
+            position: relative;
+            width: 100%;
+            display: block;
+            transition: .5s;
+        }
+
+            .menu > ul > li > a:hover {
+                color: #2A0021;
+            }
+
+.cuadroDeTexto {
+    text-align: center;
+    color: black;
+    background-color: #c3bdbd;
+    border: unset;
+    font-size: medium;
+    Width: 410px;
+    Height: 30px;
+    border-radius: 25px;
+}
+
+.boton {
+    height: 50px;
+    background-color: antiquewhite;
+    border-radius: 25px;
+    Height: 43px;
+    Width: 218px;
+    border: unset;
+}
+
+    .boton:hover {
+        color: white;
+        background-color: #a70084;
+        transform: scale(1.2);
+        transition: 1s;
+        cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Super_Mario_BowserPointer.png), pointer!important;
+    }
+
+
+.principal_container {
+    min-height: calc(100vh - (110px + 40px));
+}
+
+
+.footer_master {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    margin: 50px 0px 0px 0px;
+}
+
+.imagenUsuario {
+    margin-top: 1em;
+    width: 45px;
+    height: 45px;
+    border-radius: 25px;
+    margin-left:70%;
+}
+
+.nickName{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    color:blueviolet;
+}
+
+h6{
+    font-size: 15px;
+    margin: auto auto 0px auto;
+}
+
+.redes {
+    color: white;
+}
+
+.links {
+    color: white;
+    font-size: 10px;
+}

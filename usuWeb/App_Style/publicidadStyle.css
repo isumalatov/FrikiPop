@@ -1,0 +1,11 @@
+﻿body {
+}
+
+#textoPublicidad {
+    text-align: center;
+}
+
+#botonesPublicidad {
+    display: flex;
+    justify-content: center;
+}

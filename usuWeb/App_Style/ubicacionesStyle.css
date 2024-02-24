@@ -1,0 +1,54 @@
+﻿#botonesPaises {
+    display: flex;
+    justify-content: center;
+}
+
+    #botonesPaises .boton {
+        margin: 0 0.5em;
+        width: 200px;
+        height: 50px;
+    }
+
+#textoPaises .cuadroDeTexto {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
+
+
+
+#botonesProvincias {
+    display: flex;
+    justify-content: center;
+}
+
+    #botonesProvincias .boton {
+        margin: 0 0.5em;
+        width: 200px;
+        height: 50px;
+    }
+
+#textoProvincias .cuadroDeTexto {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}
+
+
+
+#botonesLocalidades {
+    display: flex;
+    justify-content: center;
+}
+
+    #botonesLocalidades .boton {
+        margin: 0 0.5em;
+        width: 200px;
+        height: 50px;
+    }
+
+#textoLocalidades .cuadroDeTexto {
+    display: block;
+    margin: 0 auto;
+    height: 50px;
+}

@@ -1,0 +1,91 @@
+﻿body {
+}
+
+.articulos{ /*crea la estructura de los artículos*/
+    margin-top: 2em;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content:center;
+}
+
+.articulo-card{
+    align-items: center;
+    margin-bottom: 1em;
+    display:flex;
+    grid-auto-columns:auto;
+    grid-auto-rows: auto;   
+    flex-direction:column;
+    row-gap: 16px;
+    width: 180px;
+    background-color: #ffff;
+    padding: 1em;
+    border-radius: 8px;
+    overflow-y: hidden;
+}
+
+.imagen_articulo {
+    display: block;
+    max-width: 100%;
+    animation: fadeIn .5s;
+    width: auto;
+}
+
+.imagen{
+    min-width: 150px;
+    min-height: 200px;
+}
+
+.articulo-card__caption{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #2b2b2b;
+    font-size: 14px;
+    color: #ffff;
+    height: fit-content;
+    letter-spacing: 1px;
+    padding: 20px;
+    border-radius:inherit;
+    animation: fadeIn .5s;
+}
+
+.articulo-card:hover{
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+.articulo-card__nombre{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.articulo-card__footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.publicidad{
+    display:flex;
+    justify-content: center;
+    text-align:center;
+}
+
+.publicidad_imagen {
+    cursor: url(https://cdn.custom-cursor.com/db/pointer/32/Super_Mario_BowserPointer.png), pointer !important;
+    display: flex;
+    width: 100%;
+    border-radius: 15px;
+}
+
+/*genera la animación de fadeIn*/
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

@@ -1,0 +1,59 @@
+﻿body {
+}
+
+.gridViewCarrito {
+}
+
+    .gridViewCarrito th {
+        border-bottom: 2px solid #1A2629;
+    }
+    .gridViewCarrito td {
+        border-color: #1A2629;
+        border-bottom: 1px solid #1A2629;
+    }
+
+.EnlistarArticulos {
+    background: #1A2629;
+}
+
+#PedidoContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.selectButton {
+    color: #a70084; 
+    text-decoration: none;
+    text-transform: uppercase; 
+}
+
+    .selectButton:hover {
+        color: #00BFFF; 
+    }
+
+#ValorCarritoContainer {
+    display: flex;
+}
+
+#PrecioTotalContainer {
+    display: flex;
+}
+
+#EnvioContainer {
+    display: flex;
+}
+
+#ContainerLeft {
+    flex: 1;
+}
+
+#ContainerRight {
+    flex: 1;
+}
+
+
+.boton {
+    width: 20%;
+    height: 50px;
+}
+

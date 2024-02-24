@@ -1,0 +1,33 @@
+﻿body {
+}
+
+.gridView {
+    margin: 20px auto; /* Centrado y margen superior e inferior */
+    width: 50%; /* Ancho completo del contenedor */
+    table-layout: fixed; /* Ancho fijo de las columnas */
+    border-collapse: collapse; /* Colapsar bordes de la tabla */
+}
+
+    .gridView th {
+        background-color: #a70084; /* Fondo morado oscuro */
+        color: #fff; /* Letra blanca */
+    }
+    
+    .gridView td {
+        background-color: #c08bbf; /* Fondo morado claro */
+        color: #fff; /* Letra blanca */
+        text-align: center; /* Alinear elementos en el centro */
+        width: auto; /* Ancho automático */
+        white-space: nowrap; /* Sin ajuste de texto */
+    }
+
+    .gridView .selectButton {
+        color: #a70084; /* Letra blanca */
+        text-decoration: none; /* Sin subrayado */
+        text-transform: uppercase; /* Letra en mayúsculas */
+    }
+
+    .gridView .selectButton:hover {
+        color: #00BFFF; /* Letra blanca */
+        font-weight: bold;
+    }
